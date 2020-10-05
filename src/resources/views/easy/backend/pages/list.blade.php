@@ -9,8 +9,7 @@
             <div class="card">
 
                 <div class="card-body">
-
-                    <a class="btn btn-app" href="{{route($list->getRoutePrefix('.create'))}}">
+                    <a class="btn btn-app" href="{{route($metaData->view->getRoutePrefix('.create'))}}">
                         <i class="fas fa-plus"></i> Add
                     </a>
 {{--                    <a class="btn btn-app">--}}
@@ -64,7 +63,11 @@
                         </form>
                     </div>
                 </div>
-                <!-- /.card-header -->
+
+            @php($listHeaders = $metaData->view->headers())
+            @php($listData = $metaData->view->list())
+
+            <!-- /.card-header -->
                 <div class="card-body table-head-fixed text-nowrap">
                     <table class="table table-hover text-nowrap">
                         <thead>

@@ -17,6 +17,8 @@
     <!-- overlayScrollbars -->
     <link rel="stylesheet" href="{{asset('adminlte/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css')}}">
     <link rel="stylesheet" href="{{asset('adminlte/plugins/toastr/toastr.min.css')}}">
+    <link rel="stylesheet" href="{{asset('adminlte/plugins/iCheck/iCheck.css')}}">
+
 
     <link rel="stylesheet" href="{{asset('adminlte/dist/css/adminlte.min.css')}}">
     <!-- Google Font: Source Sans Pro -->
@@ -73,6 +75,7 @@
 <script src="{{asset('adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 <script src="{{asset('adminlte/plugins/jquery-validation/jquery.validate.min.js')}}"></script>
 <script src="{{asset('adminlte/plugins/sweetalert2/sweetalert2.min.js')}}"></script>
+<script src="{{asset('adminlte/plugins/iCheck/iCheck.min.js')}}"></script>
 
 <script src="{{asset('adminlte/dist/js/adminlte.min.js')}}"></script>
 <script src="{{asset('adminlte/dist/js/demo.js')}}"></script>

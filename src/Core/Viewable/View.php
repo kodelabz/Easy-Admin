@@ -2,23 +2,22 @@
 namespace EasyView\EasyView\Core\Viewable;
 
 
-use EasyView\EasyView\Core\Configurators\Configurer;
 
 abstract class View
 {
-    protected $configuration;
+
     protected $routePrefix;
     protected $viewPath;
     protected $openFields;
 
 
-    public function __construct(Configurer $configurer, string $routePrefix, string $viewPath = 'easyview::backend.pages.'){
-        $this->configuration = $configurer;
+    public function __construct(string $routePrefix,  string $viewPath = 'easyview::backend.pages.'){
         $this->routePrefix = $routePrefix;
         $this->viewPath = $viewPath;
     }
 
     /**
+     * @param string $prefix
      * @return mixed
      */
     public function getRoutePrefix($prefix = '')

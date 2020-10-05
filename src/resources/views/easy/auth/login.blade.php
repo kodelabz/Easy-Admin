@@ -21,7 +21,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="/"><b>Arena</b>Game</a>
+    <a href="/"><b>Dental</b>CRM</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">

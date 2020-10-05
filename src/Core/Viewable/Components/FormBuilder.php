@@ -40,6 +40,7 @@ class FormBuilder
         }
     }
 
+
     private function cast($type){
         list($str) = explode('(', $type);
         $type = isset($this->types[$str]) ?  $this->types[$str] : $type;
